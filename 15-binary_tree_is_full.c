@@ -17,5 +17,7 @@ int binary_tree_is_full(const binary_tree_t *tree)
 			return (0);
 		}
 	}
+	else
+		return (NULL);
 	return (1);
 }
